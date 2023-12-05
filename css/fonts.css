@@ -1,0 +1,47 @@
+
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../webfonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("../webfonts/montserrat/Montserrat-Medium.woff") format("woff"),
+    url("../webfonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../webfonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+    url("../webfonts/montserrat/Montserrat-Bold.woff") format("woff"),
+    url("../webfonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VIP Rawy';
+  src: url('../webfonts/viprawy/VIPRawyRegular.woff2') format('woff2'),
+      url('../webfonts/viprawy/VIPRawyRegular.woff') format('woff'),
+      url('../webfonts/viprawy/VIPRawyRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VIP Rawy';
+  src: url('../webfonts/viprawy/VIPRawyBold-Bold.woff2') format('woff2'),
+      url('../webfonts/viprawy/VIPRawyBold-Bold.woff') format('woff'),
+      url('../webfonts/viprawy/VIPRawyBold-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VIP Rawy';
+  src: url('../webfonts/viprawy/VIPRawy-Thin.woff2') format('woff2'),
+      url('../webfonts/viprawy/VIPRawy-Thin.woff') format('woff'),
+      url('../webfonts/viprawy/VIPRawy-Thin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
