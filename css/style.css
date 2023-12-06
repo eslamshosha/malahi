@@ -15,6 +15,7 @@ body {
   --sec-color: #999999;
   --black-color: #000000;
   --white-color: #ffffff;
+  --sal-duration: 0.8s;
 }
 img {
   image-rendering: -webkit-optimize-contrast;
@@ -657,6 +658,9 @@ html[dir="ltr"] .section-tools .relative-swiper-btn i {
   position: relative;
   display: flex;
   margin-inline-start: auto;
+  aspect-ratio: 1;
+  max-width: 587px;
+  width: 100%;
 }
 .services-img-bg {
   /* content: ""; */
