@@ -133,6 +133,22 @@ $(document).ready(function () {
       var parallaxInstance = new Parallax(scene);
     }
   }
+  //////////// parallax
+  const parallaxTriggerExists =
+    document.getElementsByClassName("parallaxTrigger").length > 0;
+  if (parallaxTriggerExists) {
+    if ($(window).width() > 992) {
+      var slides = document.getElementsByClassName("parallaxTrigger");
+      var x = [];
+      var y = [];
+      for (var i = 1; i <= slides.length; i++) {
+        x[i] = $("#scene" + i).get(0);
+        console.log("#scene" + i);
+        y[i] = new Parallax(x[i]);
+      }
+    }
+  }
+
   ////////////** footer transfer into accordion **//////////
 
   if ($(window).width() <= 767) {
@@ -254,7 +270,6 @@ $(document).ready(function () {
       },
     },
   });
-
 
   const selectExists =
     document.getElementsByClassName("select_input").length > 0;
