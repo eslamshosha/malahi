@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/sal.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -73,13 +74,16 @@
                   </a>
                   <ul class="cats-dispaly cats-div list-unstyled">
                     <li>
-                      <a href="#"> التعريف بالشركة</a>
+                      <a href="about.html"> التعريف بالشركة</a>
                     </li>
                     <li>
                       <a href="one-entity.html"> كيان واحد</a>
                     </li>
                     <li>
                       <a href="identity.html"> هوية العلامة التجارية</a>
+                    </li>
+                    <li>
+                      <a href="studio.html"> ملاهي ستوديو</a>
                     </li>
                     <li>
                       <a href="#"> الإعتمادات الدولية</a>
@@ -95,8 +99,39 @@
                 <li>
                   <a href="roles.html"> أدوارنا </a>
                 </li>
-                <li>
-                  <a href="brand-details.html"> علاماتنا التجارية </a>
+                <li class="mega-menu">
+                  <a href="brand-details.html" class="btn-div chevron-down">
+                    علاماتنا التجارية</a
+                  >
+                  <ul class="cats-dispaly cats-div list-unstyled">
+                    <li>
+                      <a href="brand-details.html">دووس</a>
+                    </li>
+                    <li>
+                      <a href="#">ونوس</a>
+                    </li>
+                    <li>
+                      <a href="#">فزز</a>
+                    </li>
+                    <li>
+                      <a href="#">لامبي</a>
+                    </li>
+                    <li>
+                      <a href="#">كراج</a>
+                    </li>
+                    <li>
+                      <a href="#">اساسنز كريد </a>
+                    </li>
+                    <li>
+                      <a href="#">سباركيز</a>
+                    </li>
+                    <li>
+                      <a href="#">سكاي زوون</a>
+                    </li>
+                    <li>
+                      <a href="#">سنووي فورست</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="franchise.html"> الإمتياز التجاري </a>
@@ -108,12 +143,10 @@
                   <a href="quality-safety.html"> الجودة والسلامة</a>
                 </li>
                 <li class="mega-menu">
-                  <a href="studio.html" class="btn-div chevron-down">
-                    المركز الإعلامي</a
-                  >
+                  <a href="#" class="btn-div chevron-down"> المركز الإعلامي</a>
                   <ul class="cats-dispaly cats-div list-unstyled">
                     <li>
-                      <a href="studio.html"> المركز الإعلامي</a>
+                      <a href="#"> المركز الإعلامي</a>
                     </li>
                     <li>
                       <a href="gallery.html"> معرض الصور</a>
@@ -121,13 +154,16 @@
                     <li>
                       <a href="videos.html"> معرض الفيديو</a>
                     </li>
+                    <li>
+                      <a href="news.html"> الاخبار</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
             </div>
             <div class="show-icons">
               <a href="index-en.html" class="lang-ancor"> en </a>
-              <a href="form.html" class="contact-link" rel="nofollow">
+              <a href="contact.html" class="contact-link" rel="nofollow">
                 تواصل معنا</a
               >
               <button class="menu-bars fixall" id="menu-id">
@@ -165,18 +201,21 @@
       <div class="container">
         <div class="videos-cont">
           <div class="video-item">
-            <figure class="loading-img">
-              <img
-                data-src="images/videos/01.jpg"
-                class="img-fluid lazy-img"
-                alt="img"
-              />
-            </figure>
-            <div class="overlay-img">
-              <i class="las la-play"></i>
-            </div>
+            <a data-fancybox="gallery" href="images/videos/01.jpg">
+              <figure class="loading-img">
+                <img
+                  data-src="images/videos/01.jpg"
+                  class="img-fluid lazy-img"
+                  alt="img"
+                />
+              </figure>
+              <div class="overlay-img">
+                <i class="las la-play"></i>
+              </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/02.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/02.jpg"
@@ -187,8 +226,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/03.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/03.jpg"
@@ -199,8 +240,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/04.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/04.jpg"
@@ -211,8 +254,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/05.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/05.jpg"
@@ -223,8 +268,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/06.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/06.jpg"
@@ -235,8 +282,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/07.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/07.jpg"
@@ -247,8 +296,10 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
           <div class="video-item">
+            <a data-fancybox="gallery" href="images/videos/08.jpg">
             <figure class="loading-img">
               <img
                 data-src="images/videos/08.jpg"
@@ -259,6 +310,7 @@
             <div class="overlay-img">
               <i class="las la-play"></i>
             </div>
+            </a>
           </div>
         </div>
         <ol class="custom-pagination list-unstyled">
@@ -407,6 +459,7 @@
     <!-- arrow to top -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/sal.js"></script>

@@ -143,7 +143,6 @@ $(document).ready(function () {
       var y = [];
       for (var i = 1; i <= slides.length; i++) {
         x[i] = $("#scene" + i).get(0);
-        console.log("#scene" + i);
         y[i] = new Parallax(x[i]);
       }
     }
