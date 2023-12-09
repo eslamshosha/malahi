@@ -455,6 +455,7 @@ header {
 }
 .about-us-pargh span {
   color: var(--main-color);
+  text-transform: capitalize;
 }
 .link-btn {
   display: flex;
@@ -720,6 +721,7 @@ html[dir="ltr"] .section-tools .relative-swiper-btn i {
   font-weight: 400;
   color: var(--black-color);
   margin-bottom: 15px;
+  text-align: start;
   transition: all 0.3s ease-in-out;
 }
 .services-ul li:hover {
@@ -736,6 +738,7 @@ html[dir="ltr"] .section-tools .relative-swiper-btn i {
   justify-content: center;
   font-size: 36px;
   color: var(--main-color);
+  flex-shrink: 0;
   transition: all 0.3s ease-in-out;
 }
 .services-ul i.la-magnet {
@@ -1040,9 +1043,18 @@ html[dir="ltr"] .section-tools .relative-swiper-btn i {
   justify-content: center;
   max-width: 450px;
 }
+html[dir="ltr"] .section-title{
+  font-size: 40px;
+}
+html[dir="ltr"] .accreditations-info{
+  max-width: 100%;
+}
 @media (max-width: 991px) {
   .accreditations-section {
     margin-bottom: 40px;
+  }
+  html[dir="ltr"] .section-title{
+    font-size: 28px;
   }
   .accreditations-cont {
     grid-template-columns: repeat(1, 1fr);
@@ -1146,13 +1158,18 @@ footer {
   align-items: center;
   justify-content: flex-start;
 }
+html[dir="ltr"] .copyrights{
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 14px;
+}
 .copyrights ~ .copyrights {
   margin-top: 10px;
 }
 .copyrights a {
   display: block;
   margin-inline-start: 9px;
-  width: 60px;
+  width: 73px;
 }
 .copyrights a img {
   max-width: 100%;
@@ -3373,6 +3390,10 @@ input[type="file"] {
   text-align: start;
   max-width: 948px;
   margin: 0 auto 100px;
+}
+.share-cont{
+  text-align: center;
+  margin-top: 40px;
 }
 .post-head {
   margin-bottom: 18px;
