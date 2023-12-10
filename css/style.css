@@ -251,7 +251,7 @@ header {
   transition: all 0.4s ease-in-out;
 }
 .lang-ancor:hover {
-  background-color: rgba(51, 166, 128, 0.4);
+  background-color: var(--main-color);
   color: var(--white-color);
 }
 .contact-link {
@@ -511,6 +511,7 @@ html[dir="ltr"] .link-btn i {
   font-weight: 400;
   margin: 0 0 15px;
   text-align: start;
+  text-transform: capitalize;
 }
 @media (max-width: 767px) {
   .clients-title {
